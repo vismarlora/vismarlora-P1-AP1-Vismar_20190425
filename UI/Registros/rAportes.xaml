@@ -1,0 +1,67 @@
+﻿<Window x:Class="P1_AP1_Vismar_20190425.UI.Registros.rAportes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:P1_AP1_Vismar_20190425.UI.Registros"
+        mc:Ignorable="d"
+        Title="Reporte de Aportes" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10">
+
+            <StackPanel Orientation="Vertical">
+                <Label Content="Aporte Id:" />
+                <StackPanel Orientation="Horizontal" >
+                    <TextBox x:Name="AporteIdTextBox" Text="{Binding AporteId}" Width="100" Height="18" />
+                    <Button x:Name="BuscarButton" Margin="5,0" Click="BuscarButton_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <!--<Image Source="/Resources/search_locate_find_6278.png" />-->
+                            <Label Content="Buscar" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical">
+                    <Label Content="Fecha:" />
+                    <DatePicker x:Name="FechaDatePicker" SelectedDate="{Binding Fecha}"  SelectedDateFormat="Short" />
+                </StackPanel>
+
+                <Label Content="Persona:" />
+                <TextBox x:Name="PersonaTextBox" Text="{Binding Persona}" />
+
+                <Label Content="Concepto:" />
+                <TextBox x:Name="ConceptoTextBox" Text="{Binding Concepto}" />
+
+                <StackPanel Orientation="Vertical">
+                    <Label Content="Monto:" />
+                    <TextBox x:Name="MontoTextBox" Text="{Binding Monto}" ></TextBox>
+                </StackPanel>
+            </StackPanel>
+
+            <!--BARRA DE BOTONES-->
+            <StackPanel Orientation="Horizontal" Margin="15" >
+                <Button x:Name="NuevoButton" Margin="0,0,0,0" Click="NuevoButton_Click">
+                    <StackPanel Orientation="Vertical">
+                        <!--<Image Source="/Resources/add_icon-icons.com_74429.png" />-->
+                        <Label Content="Nuevo" />
+                    </StackPanel>
+                </Button>
+
+                <StackPanel Orientation="Vertical"></StackPanel>
+                <Button x:Name="GuardarButton" Margin="25,0" Click="GuardarButton_Click">
+                    <StackPanel Orientation="Vertical">
+                        <!--<Image Source="/Resources/Save_37110.png" />-->
+                        <Label Content="Guardar" />
+                    </StackPanel>
+                </Button>
+
+                <Button x:Name="EliminarButton" Margin="5,0" Click="EliminarButton_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <!--<Image Source="/Resources/delete_delete_exit_1577.png" />-->
+                        <Label Content="Eliminar" />
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
