@@ -15,7 +15,9 @@
                     <TextBox x:Name="AporteIdTextBox" Text="{Binding AporteId}" Width="100" Height="18" />
                     <Button x:Name="BuscarButton" Margin="5,0" Click="BuscarButton_Click">
                         <StackPanel Orientation="Horizontal">
-                            <!--<Image Source="/Resources/search_locate_find_6278.png" />-->
+
+                            <Image Source="/Resources/search_locate_find_6278.png" />
+
                             <Label Content="Buscar" />
                         </StackPanel>
                     </Button>
@@ -42,7 +44,9 @@
             <StackPanel Orientation="Horizontal" Margin="15" >
                 <Button x:Name="NuevoButton" Margin="0,0,0,0" Click="NuevoButton_Click">
                     <StackPanel Orientation="Vertical">
-                        <!--<Image Source="/Resources/add_icon-icons.com_74429.png" />-->
+
+                        <Image Source="/Resources/add_icon-icons.com_74429.png" />
+
                         <Label Content="Nuevo" />
                     </StackPanel>
                 </Button>
@@ -50,14 +54,18 @@
                 <StackPanel Orientation="Vertical"></StackPanel>
                 <Button x:Name="GuardarButton" Margin="25,0" Click="GuardarButton_Click">
                     <StackPanel Orientation="Vertical">
-                        <!--<Image Source="/Resources/Save_37110.png" />-->
+
+                        <Image Source="/Resources/Save_37110 (1).png" />
+
                         <Label Content="Guardar" />
                     </StackPanel>
                 </Button>
 
                 <Button x:Name="EliminarButton" Margin="5,0" Click="EliminarButton_Click">
                     <StackPanel Orientation="Horizontal">
-                        <!--<Image Source="/Resources/delete_delete_exit_1577.png" />-->
+
+                        <Image Source="/Resources/delete_delete_exit_1577.png" />
+
                         <Label Content="Eliminar" />
                     </StackPanel>
                 </Button>
