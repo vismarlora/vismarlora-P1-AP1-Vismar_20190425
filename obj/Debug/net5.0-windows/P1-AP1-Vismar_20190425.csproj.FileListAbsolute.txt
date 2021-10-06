@@ -57,3 +57,9 @@ C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\ob
 C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\obj\Debug\net5.0-windows\ref\P1-AP1-Vismar_20190425.dll
 C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\obj\Debug\net5.0-windows\P1-AP1-Vismar_20190425.pdb
 C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\obj\Debug\net5.0-windows\P1-AP1-Vismar_20190425.genruntimeconfig.cache
+C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\obj\Debug\net5.0-windows\UI\Consultas\cAportes.g.cs
+C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\obj\Debug\net5.0-windows\UI\Registros\rAportes.g.cs
+C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\obj\Debug\net5.0-windows\UI\Consultas\cAportes.baml
+C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\obj\Debug\net5.0-windows\UI\Registros\rAportes.baml
+C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\obj\Debug\net5.0-windows\P1_AP1_Vismar_20190425.Properties.Resources.resources
+C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\obj\Debug\net5.0-windows\P1-AP1-Vismar_20190425.csproj.GenerateResource.cache
