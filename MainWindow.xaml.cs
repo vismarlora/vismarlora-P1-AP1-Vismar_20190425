@@ -1,4 +1,6 @@
-﻿using System;
+﻿using P1_AP1_Vismar_20190425.UI.Consultas;
+using P1_AP1_Vismar_20190425.UI.Registros;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,18 @@ namespace P1_AP1_Vismar_20190425
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void AporteMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            rAportes aportes = new rAportes();
+            aportes.Show();
+        }
+
+        private void ConsultaAporteMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            cAportes aportes = new cAportes();
+            aportes.Show();
         }
     }
 }
