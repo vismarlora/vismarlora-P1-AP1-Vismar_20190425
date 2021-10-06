@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\App.xaml
-21534809523
+32109282589
 
-14875202909
+15-1760022877
 2131209332288
-MainWindow.xaml;UI\Registros\rAportes.xaml;
+MainWindow.xaml;UI\Consultas\cAportes.xaml;UI\Registros\rAportes.xaml;
 
-False
+True
 
