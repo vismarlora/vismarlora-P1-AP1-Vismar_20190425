@@ -9,7 +9,7 @@ using P1_AP1_Vismar_20190425.DAL;
 namespace P1_AP1_Vismar_20190425.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20211006031124_Migracion_Inicial")]
+    [Migration("20211017223150_Migracion_Inicial")]
     partial class Migracion_Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -30,8 +30,8 @@ namespace P1_AP1_Vismar_20190425.Migrations
                     b.Property<DateTime>("Fecha")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Monto")
-                        .HasColumnType("INTEGER");
+                    b.Property<float>("Monto")
+                        .HasColumnType("REAL");
 
                     b.Property<string>("Persona")
                         .HasColumnType("TEXT");

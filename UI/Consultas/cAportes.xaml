@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:P1_AP1_Vismar_20190425.UI.Consultas"
         mc:Ignorable="d"
-        Title="Consulta de Aportes" Height="450" Width="800">
+        Title="Consulta de Aportes" Height="400" Width="550">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="692*"/>
+            <ColumnDefinition Width="109*"/>
+        </Grid.ColumnDefinitions>
         <StackPanel Orientation="Vertical" Margin="10,10,10,0" Grid.ColumnSpan="2" RenderTransformOrigin="0.561,0.447">
 
             <StackPanel Orientation="Horizontal" Height="58">
@@ -53,15 +57,15 @@
                 <StackPanel HorizontalAlignment="Left">
                     <DataGrid x:Name="DatosDataGrid" Height="240" Width="489" AutoGenerateColumns="False">
                         <DataGrid.Columns>
-                            <DataGridTextColumn Header="Aporte Id" Binding="{Binding AporteId}"/>
+                            <DataGridTextColumn Header="Aporte Id          " Binding="{Binding AporteId}"/>
 
-                            <DataGridTextColumn Header="Fecha" Binding="{Binding Fecha}"/>
+                            <DataGridTextColumn Header="Fecha              " Binding="{Binding Fecha}"/>
 
-                            <DataGridTextColumn Header="Persona" Binding="{Binding Persona}"/>
+                            <DataGridTextColumn Header="Persona            " Binding="{Binding Persona}"/>
 
-                            <DataGridTextColumn Header="Concepto" Binding="{Binding Concepto}"/>
+                            <DataGridTextColumn Header="Concepto           " Binding="{Binding Concepto}"/>
 
-                            <DataGridTextColumn Header="Monto" Binding="{Binding Monto}"/>
+                            <DataGridTextColumn Header="Monto              " Binding="{Binding Monto}"/>
 
                         </DataGrid.Columns>
                     </DataGrid>

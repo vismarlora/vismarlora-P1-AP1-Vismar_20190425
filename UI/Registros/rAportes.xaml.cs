@@ -118,6 +118,8 @@ namespace P1_AP1_Vismar_20190425.UI.Registros
             if (MensajeValidacion.Length > 0)
                 MessageBox.Show(MensajeValidacion, "Validacion", MessageBoxButton.OK, MessageBoxImage.Information);
 
+            MontoTextBox.Text = aporte.Monto.ToString("N2");
+
             return MensajeValidacion.Length == 0;
         }
     }

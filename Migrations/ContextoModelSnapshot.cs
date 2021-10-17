@@ -28,8 +28,8 @@ namespace P1_AP1_Vismar_20190425.Migrations
                     b.Property<DateTime>("Fecha")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Monto")
-                        .HasColumnType("INTEGER");
+                    b.Property<float>("Monto")
+                        .HasColumnType("REAL");
 
                     b.Property<string>("Persona")
                         .HasColumnType("TEXT");

@@ -63,3 +63,10 @@ C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\ob
 C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\obj\Debug\net5.0-windows\UI\Registros\rAportes.baml
 C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\obj\Debug\net5.0-windows\P1_AP1_Vismar_20190425.Properties.Resources.resources
 C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\obj\Debug\net5.0-windows\P1-AP1-Vismar_20190425.csproj.GenerateResource.cache
+C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\obj\Debug\net5.0-windows\P1-AP1-Vismar_20190425_Content.g.cs
+C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\bin\Debug\net5.0-windows\Resources\add_icon-icons.com_74429.png
+C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\bin\Debug\net5.0-windows\Resources\delete_delete_exit_1577.png
+C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\bin\Debug\net5.0-windows\Resources\Guardar.png
+C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\bin\Debug\net5.0-windows\Resources\Save_37110 (1).png
+C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\bin\Debug\net5.0-windows\Resources\search_locate_find_6278.png
+C:\Users\Vismar\Desktop\Aplicada I\1erParcialAplicadaI\P1-AP1-Vismar_20190425\bin\Debug\net5.0-windows\DATA\RepasoPPA.db

@@ -16,7 +16,7 @@ namespace P1_AP1_Vismar_20190425.Migrations
                     Fecha = table.Column<DateTime>(type: "TEXT", nullable: false),
                     Persona = table.Column<string>(type: "TEXT", nullable: true),
                     Concepto = table.Column<string>(type: "TEXT", nullable: true),
-                    Monto = table.Column<int>(type: "INTEGER", nullable: false)
+                    Monto = table.Column<float>(type: "REAL", nullable: false)
                 },
                 constraints: table =>
                 {

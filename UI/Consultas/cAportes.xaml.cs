@@ -61,7 +61,7 @@ namespace P1_AP1_Vismar_20190425.UI.Consultas
             DatosDataGrid.ItemsSource = listado;
 
             Conteo = listado.Count().ToString();
-            Total = listado.Sum(c => c.Monto).ToString();
+            Total = listado.Sum(c => c.Monto).ToString("N2");
             ConteoTextBox.Text = Conteo;
             TotalTextBox.Text = Total;
         }
